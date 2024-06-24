@@ -14,6 +14,6 @@
                 <label for="wish">Deseo</label>
                 <textarea id="wish" name="wish"></textarea>
             </div>
-            <button class="continue-button">Aceptar</button>
+            <button class="continue-button next-button">Aceptar</button>
         </form>
     </div>
