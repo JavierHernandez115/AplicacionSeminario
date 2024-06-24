@@ -1,0 +1,190 @@
+/* Estilos generales existentes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8D7DA;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    background-color: #F8D7DA;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #344955;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #4E4E4E;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup-container {
+    background-color: #FFCDD2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-container h1 {
+    background-color: #F4A9A8;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    font-size: 1.5em;
+    color: #4E4E4E;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4E4E4E;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #4E4E4E;
+    border-radius: 0;
+    background-color: #FFCDD2;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #4E4E4E;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #344955;
+}
+
+.button {
+    background-color: #F28C8C;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Nuevos estilos para el formulario de preguntas */
+.form-container {
+    background-color: #FFCDD2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 20px;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5em;
+    color: #4E4E4E;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    color: #4E4E4E;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.option {
+    background-color: #FFF2F2;
+    border: 2px solid #FFC1C1;
+    color: #4E4E4E;
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.option:hover {
+    background-color: #FFE0E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.next-button {
+    background-color: #F28C8C;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.next-button:hover {
+    background-color: #F06D6D;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.resource-row {
+    background-color: #FFF2F2;
+    border: 2px solid #FFC1C1;
+    color: #4E4E4E;
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
